@@ -1,0 +1,29 @@
+.class_p{
+    background-color: blue;
+    color: white;
+}
+
+.class_span{
+    background-color: red;
+    color: white;
+}
+
+.hijos:nth-child(1){
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    display:inline-block
+}
+.hijos:nth-child(2){
+    background-color: yellowgreen;
+    width: 400px;
+    height: 300px;
+    display:inline-block
+}
+
+.hijos:nth-child(3){
+    background-color: brown;
+    width: 400px;
+    height: 300px;
+    display:inline-block
+}

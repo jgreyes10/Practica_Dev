@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.titulo_pseudo_clase{
+    background-color: blue;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.titulo_pseudo_clase:hover{
+    background-color: red;
+    color: white;
+}
+
+.titulo_pseudo_clase:active{
+    background-color: brown;
+    color: white;
+}
+
+.parrafo{
+    background-color: brown;
+    color: white;
+}
+
+.parrafo::before{
+    content: "❤";
+    color: black;
+}
+
+.parrafo::after{
+    content: "❤";
+    color: black;
+}
+
+/* selector de hijos */
+
+.padre_de_hijos {
+    background-color: darkgreen;
+}
+
+/* selector de hijos directos*/
+
+.padre_de_hijos_directos{
+    background-color: deeppink;
+}
+
+.padre_de_hijos_directos > p{
+    background-color: blue
+}
+
+/* selector de hermano*/
+
+.selector_hermano ~ p{
+    background-color: orangered;
+}
+
+
+/* selector de hermano adyacentes*/
+
+.selector_hermano_adyacentes + p{
+    background-color: green;
+}

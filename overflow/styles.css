@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box:nth-child(1){
+    background-color: red;
+    overflow: hidden; 
+    transition: width 1s, height 1s;
+}
+
+.box:nth-child(1):hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    width: 200px;
+    height: 200px;
+}
+
+.box:nth-child(2){
+    background-color: blue;
+    overflow-y: scroll;
+}
+
+.box:nth-child(3){
+    background-color: crimson;
+}
